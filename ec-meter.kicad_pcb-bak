@@ -5,7 +5,7 @@
     (no_connects 69)
     (area 26.449999 21.449999 73.550001 78.550001)
     (thickness 1.6)
-    (drawings 4)
+    (drawings 7)
     (tracks 0)
     (zones 0)
     (modules 39)
@@ -300,7 +300,7 @@
   )
 
   (module visgence_parts:SM1206POL_VIS (layer F.Cu) (tedit 52A1632F) (tstamp 58844AF0)
-    (at 43.55 73.3 270)
+    (at 43.775 73.375 270)
     (path /5882F85D)
     (attr smd)
     (fp_text reference C6 (at 0 -1.8288 270) (layer F.SilkS)
@@ -448,7 +448,7 @@
   )
 
   (module visgence_parts:Term3.5-2 (layer F.Cu) (tedit 53DDB7D8) (tstamp 58844B0E)
-    (at 30.175 50.675 270)
+    (at 30 50 270)
     (path /5882A364)
     (fp_text reference P1 (at 0 -4 270) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.127)))
@@ -468,7 +468,7 @@
   )
 
   (module visgence_parts:Term3.5-2 (layer F.Cu) (tedit 53DDB7D8) (tstamp 58844B14)
-    (at 52.775 24.8 180)
+    (at 54 25 180)
     (path /58847E21)
     (fp_text reference P2 (at 0 -4 180) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.127)))
@@ -508,7 +508,7 @@
   )
 
   (module visgence_parts:Term3.5-2 (layer F.Cu) (tedit 53DDB7D8) (tstamp 58844B20)
-    (at 45.6 24.8 180)
+    (at 46 25 180)
     (path /5884A0F9)
     (fp_text reference P4 (at 0 -4 180) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.127)))
@@ -586,7 +586,7 @@
   )
 
   (module visgence_parts:Var_resistor (layer F.Cu) (tedit 52488A0F) (tstamp 58844B82)
-    (at 67 50)
+    (at 67 49)
     (descr "Resistance variable / potentiometre")
     (tags R)
     (path /58853556)
@@ -613,7 +613,7 @@
   )
 
   (module visgence_parts:Var_resistor (layer F.Cu) (tedit 52488A0F) (tstamp 58844B89)
-    (at 66.5 63.5)
+    (at 67 61)
     (descr "Resistance variable / potentiometre")
     (tags R)
     (path /5885830C)
@@ -640,7 +640,7 @@
   )
 
   (module SMD_Packages:SOIC-14_N (layer F.Cu) (tedit 0) (tstamp 58844B9B)
-    (at 49.975 45.9)
+    (at 50 46)
     (descr "Module CMS SOJ 14 pins Large")
     (tags "CMS SOJ")
     (path /58825C06)
@@ -691,7 +691,7 @@
   )
 
   (module SMD_Packages:SOIC-14_N (layer F.Cu) (tedit 0) (tstamp 58844BAD)
-    (at 50.25 63)
+    (at 50 63)
     (descr "Module CMS SOJ 14 pins Large")
     (tags "CMS SOJ")
     (path /588284D0)
@@ -745,7 +745,7 @@
   )
 
   (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 56C360B9) (tstamp 58844BB2)
-    (at 59.5 38)
+    (at 60 38)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
     (path /58870C3B)
@@ -765,7 +765,7 @@
   )
 
   (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 56C360B9) (tstamp 58844BB7)
-    (at 59 50.5)
+    (at 60 50)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
     (path /5887156E)
@@ -785,7 +785,7 @@
   )
 
   (module Measurement_Points:Measurement_Point_Square-TH_Small (layer F.Cu) (tedit 56C360B9) (tstamp 58844BBC)
-    (at 59.5 64)
+    (at 60 62)
     (descr "Mesurement Point, Square, Trough Hole,  1.5mm x 1.5mm, Drill 0.8mm,")
     (tags "Mesurement Point Square Trough Hole 1.5x1.5mm Drill 0.8mm")
     (path /5887160B)
@@ -930,7 +930,7 @@
   )
 
   (module visgence_parts:SM0603_VIS (layer F.Cu) (tedit 52A161E2) (tstamp 58844EA3)
-    (at 60.55 59.5)
+    (at 61 57)
     (path /5882C07C)
     (attr smd)
     (fp_text reference R6 (at 0 -1.016) (layer F.SilkS)
@@ -1005,7 +1005,7 @@
   )
 
   (module visgence_parts:SM0603_VIS (layer F.Cu) (tedit 52A161E2) (tstamp 58844EB2)
-    (at 61 34)
+    (at 61 32)
     (path /5882813E)
     (attr smd)
     (fp_text reference R9 (at 0 -1.016) (layer F.SilkS)
@@ -1160,6 +1160,9 @@
     (pad 1 thru_hole circle (at 0 0) (size 6 6) (drill 3.5) (layers *.Cu *.Mask F.SilkS))
   )
 
+  (gr_line (start 23 50) (end 23 49) (angle 90) (layer Cmts.User) (width 0.2))
+  (gr_line (start 74 50) (end 23 50) (angle 90) (layer Cmts.User) (width 0.2))
+  (gr_line (start 50 21) (end 50 81) (angle 90) (layer Cmts.User) (width 0.2))
   (gr_line (start 26.5 78.5) (end 26.5 21.5) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 73.5 78.5) (end 26.5 78.5) (angle 90) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 73.5 21.5) (end 73.5 78.5) (angle 90) (layer Edge.Cuts) (width 0.1))
