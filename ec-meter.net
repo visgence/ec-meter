@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/esalazar/git/ec-meter/ec-meter.sch)
-    (date "1/25/2017 9:22:50 AM")
+    (date "1/25/2017 10:05:21 AM")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -101,13 +101,13 @@
       (tstamp 5882A898))
     (comp (ref D1)
       (value D)
-      (footprint Diodes_SMD:D_SOD-323_HandSoldering)
+      (footprint Diodes_SMD:D_SOD-323)
       (libsource (lib device) (part D))
       (sheetpath (names /) (tstamps /))
       (tstamp 5882B9A9))
     (comp (ref D2)
       (value D)
-      (footprint Diodes_SMD:D_SOD-323_HandSoldering)
+      (footprint Diodes_SMD:D_SOD-323)
       (libsource (lib device) (part D))
       (sheetpath (names /) (tstamps /))
       (tstamp 5882BACC))
@@ -373,12 +373,12 @@
       (pins
         (pin (num 1) (name 1) (type passive)))))
   (libraries
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical linear)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\linear.lib"))
-    (library (logical device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib")))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\linear.lib")))
   (nets
     (net (code 1) (name ECOut)
       (node (ref P3) (pin 2))
